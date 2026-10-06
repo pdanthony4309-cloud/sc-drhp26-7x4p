@@ -134,9 +134,45 @@ footer{background:#F7F8F9;padding:28px 20px;text-align:center;font-size:12px;col
 
 
 @media(max-width:720px){
-  .hero img{width:min(430px,78vw);margin-bottom:18px}
-  .kpis{margin:20px auto 26px}
-  .hero p{font-size:13px;line-height:1.65}
+  .hero{
+    padding:34px 16px 30px;
+  }
+  .hero img{
+    width:64vw;
+    max-width:360px;
+    min-width:220px;
+    margin:0 auto 14px;
+  }
+  .hero .eyebrow{
+    font-size:11px;
+    letter-spacing:.14em;
+  }
+  .hero h1{
+    font-size:clamp(27px,8.2vw,34px);
+    line-height:1.08;
+    margin:8px 0 10px;
+    white-space:nowrap;
+  }
+  .hero p{
+    font-size:13px;
+    line-height:1.6;
+    max-width:420px;
+    margin:0 auto;
+  }
+  .kpis{
+    margin:24px auto 28px;
+    gap:9px;
+  }
+  .kpi{
+    padding:13px 10px;
+    border-radius:14px;
+  }
+  .kpi b{
+    font-size:18px;
+  }
+  .kpi span{
+    font-size:10px;
+  }
 }
 
 </style>
